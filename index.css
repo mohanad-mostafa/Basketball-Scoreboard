@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.home {
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+/* identical to box height, or 90% */
+}
+
+.guest {
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
