@@ -39,3 +39,36 @@ body {
     font-size: 40px;
     line-height: 36px;
 }
+
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.home-score-text {
+    color:#F94F6D;
+    width: 120px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    text-align: center;
+    font-weight: 300px;
+    font-size: 90px;
+    line-height: 120px;
+    background-color: black;
+}
+
+.guest-score-text {
+    color:#F94F6D;
+    width: 120px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    text-align: center;
+    font-weight: 300px;
+    font-size: 90px;
+    line-height: 120px;
+    background-color: black;
+}
