@@ -1,36 +1,34 @@
-let homeScore = document.getElementsByClassName("home-score-text")
-let guestScore = document.getElementsByClassName("guest-score-text")
-let count = 0
+let homeScore = document.getElementsByClassName("home-score-text")[0]
+let guestScore = document.getElementsByClassName("guest-score-text")[0]
+let countHome = 0
+let countGuest = 0
 
 function add1Home() {
-    count = count + 1
-    console.log(count)
-    let countStr = count + ""
-    homeScore.textContent = countStr 
-    console.log(homeScore.textContent)
+    countHome = countHome + 1
+    homeScore.textContent = countHome 
 }
 
 function add2Home() {
-    count = count + 2
-    homeScore.textContent = count
+    countHome = countHome + 2
+    homeScore.textContent = countHome
 }
 
 function add3Home() {
-    count += 3
-    homeScore.textContent = count
+    countHome += 3
+    homeScore.textContent = countHome
 }
 
 function add1Guest() {
-    count++
-    guestScore.textContent = count
+    countGuest++
+    guestScore.textContent = countGuest
 }
 
 function add2Guest() {
-    count += 2
-    guestScore.textContent = count
+    countGuest += 2
+    guestScore.textContent = countGuest
 }
 
 function add3Guest() {
-    count += 3
-    guestScore.textContent = count
+    countGuest += 3
+    guestScore.textContent = countGuest
 }
